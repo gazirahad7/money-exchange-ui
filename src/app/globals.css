@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #3f95e4;
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+} */
+
+/* ========= Reuseable classes ========== */
+
+.cus-bg-primary {
+  background-color: var(--primary-color);
+}
+.cus-primary {
+  color: var(--primary-color);
+}
+.cus-border {
+  border: 1px solid var(--primary-color) !important;
+}
+
+.heading-2 {
+  @apply text-2xl cus-primary font-bold mb-5 ;
+}
+
+.cus-sec-container {
+  @apply container px-5 py-16 mx-auto text-gray-600;
+}
+
+.cus-input {
+  @apply input border  border-gray-300  w-full focus:outline-[#3f95e4] focus:border-opacity-0 text-gray-500;
+}
+.cus-select-input {
+  @apply select  border  border-gray-300  w-full focus:outline-[#3f95e4] focus:border-opacity-0 text-gray-500;
+}
+.cus-textarea {
+  @apply textarea  h-24  border  border-gray-300  w-full focus:outline-[#3f95e4] focus:border-opacity-0 text-gray-500;
+}
+
+.cus-label {
+  @apply label-text text-gray-700 text-sm font-medium;
+}
+
+.cus-btn {
+  @apply btn cus-bg-primary text-white font-semibold hover:bg-blue-600;
+}
