@@ -7,7 +7,7 @@ const ExchangeMoney = () => {
     <div className="container mx-auto px-4">
       <div className=" border rounded-lg border-gray-200 md:px-4 md:py-4  p-3 shadow-lg bg-white  ">
         <div className="flex  flex-col md:flex-row  items-center justify-between gap-4 ">
-          <div className="flex gap-2 items-center flex-col md:flex-row ">
+          <div className="flex gap-2  flex-col md:flex-row ">
             <div className="form-control ">
               <label className="label">
                 <span className="cus-label ">Send</span>
@@ -15,10 +15,10 @@ const ExchangeMoney = () => {
               <input
                 type="text"
                 placeholder="Type here"
-                className=" cus-input  "
+                className=" cus-input  max-w-sm "
               />
             </div>
-            <div className="flex gap-2 justify-center items-center">
+            <div className="flex gap-2 justify-center items-center ">
               <div className="form-control w-full   ">
                 <label className="label">
                   <span className="cus-label">Form</span>
@@ -54,7 +54,7 @@ const ExchangeMoney = () => {
             {switchArrowSVG}
           </div>
           <div>
-            <div className="flex gap-2 items-center flex-col md:flex-row">
+            <div className="flex gap-2  flex-col md:flex-row">
               <div className="flex gap-2 justify-center items-center">
                 <div className="form-control w-full   ">
                   <label className="label">
@@ -96,7 +96,7 @@ const ExchangeMoney = () => {
           </div>
         </div>
 
-        <div className="flex md:flex-row flex-col md:justify-between justify-center items-center  gap-4 my-4">
+        <div className="flex md:flex-row flex-col md:justify-between justify-center   gap-4 my-4">
           <p>Exchange rate: 1 USD = 105 BDT</p>
 
           <button className="btn cus-bg-primary text-white font-semibold cus-btn">
