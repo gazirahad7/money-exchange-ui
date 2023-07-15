@@ -50,7 +50,7 @@ const ExchangeMoney = () => {
             </div>
           </div>
 
-          <div className="rounded-full w-[50px] h-[50px] border border-gray-400 p-3  md:self-end text-center md:mt-0 mt-3 ">
+          <div className="rounded-full w-[50px] h-[50px] border border-gray-400 p-3  md:self-end text-center md:mt-0 mt-2 md:rotate-0 rotate-90 ">
             {switchArrowSVG}
           </div>
           <div>
