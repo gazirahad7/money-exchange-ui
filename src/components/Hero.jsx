@@ -7,12 +7,12 @@ const Hero = () => {
     <div className="">
       <div className=" flex  md:flex-row flex-col cus-bg-primary relative  ">
         <div className=" flex  2xl:gap-64 items-center mt-4   mb-14">
-          <div className="md:opacity-0 lg:opacity-100 hidden lg:block">
+          <div className="md:opacity-0 lg:opacity-100 hidden lg:block ">
             {/* <img src="/images/hero.png" className="max-w-sm " /> */}
 
             <ImageComponent
               src="/images/hero.png"
-              className="max-w-sm "
+              className="max-w-sm  "
               width={350}
               height={350}
             />
